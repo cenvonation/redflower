@@ -15,6 +15,7 @@ Expected features in Red Flower:
 - Reboot menus
 - Separate partition flashing
 - Backup IMEI (nvram, nvdata for custom rom)
+- Fix dm-verity error on boot
 
 https://t.me/Redmi10_Community
 
