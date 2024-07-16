@@ -8,6 +8,7 @@ A multipurpose tool for the Redmi 10/Prime/Note 11 4G
 - Possibly Android with Termux terminal emulator
 
 Expected features in Red Flower:
+- ADB/Fastboot installer (with PATH support)
 - Download custom MIUI roms made by the community
 - Flash roms
 - Flash custom recoveries (TWRP, OFOX)
