@@ -3,8 +3,8 @@ A multipurpose tool for the Redmi 10/Prime/Note 11 4G
 
 Project uses .py, .bat and will soon use .sh
 
-platform-tools by Google
-aria2c by aria2
+### platform-tools by Google
+### aria2c by aria2
 
 Currently supported OS is Windows. Other OS support will soon arrive to:
 - MacOS
