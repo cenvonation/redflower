@@ -29,7 +29,7 @@ if __name__ == "__main__":
 #CODE ARCHIVE#
 ##############
 
-## Show connections ##
+## Show connections. Shows only SN in [] and shows nothing when disconnected ##
 
 #import android_controller
 
