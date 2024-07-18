@@ -1,4 +1,5 @@
 # Red Flower
+## !!!THIS TOOL IS STILL UNFINISHED DONT USE IT YET!!!
 A multipurpose tool for the Redmi 10/Prime/Note 11 4G 
 
 Project uses .py, .bat and will soon use .sh
