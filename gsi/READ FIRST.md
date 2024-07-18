@@ -1,6 +1,9 @@
 # GSI FLASHER
 
-To flash GSI, drag your vbmeta.img and system.img in the Images folder. 
-Then run Install.bat to start flashing.
+## Requirements
+- GSI image must be named system.img
+- vbmeta image must be named vbmeta.img
+- Both images must be placed in the Images folder
 
-Make sure your device is in fastboot mode to start
+When all files are present in Images folder, make sure your device is in fastboot mode and run Install.bat to start flashing.
+

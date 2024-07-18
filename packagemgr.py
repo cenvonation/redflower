@@ -4,11 +4,12 @@
 import subprocess
 import tkinter as tk
 from tkinter import filedialog
+import time
 
 pkg = input("""Options:
 [v] View Installed Packages
-[i] Install APK
-[u] Uninstall Package
+[i] Install APK (doesnt work on my end)
+[u] Uninstall Package (doesnt work on my end)
 
 Option: """)
 if pkg == "v":
@@ -21,7 +22,7 @@ elif pkg == "i":
     apkp = filedialog.askopenfilename()
     confi = input("Are you sure to install? [y/n]:")
     if confi == "y":
-        install = "adb -e install ", apkp
+        install = 'adb -e install ', apkp
         subprocess.Popen(install, shell=True)
     else:
         print("Aborting Install.")
