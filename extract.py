@@ -6,6 +6,24 @@ import os
 
 exdir = os.path.exists("extracted")
 romcheck = os.path.exists("rom.zip")
+
+os.chdir("bin\\aria2c\\dl")
+if exdir == True:
+    print("Extract folder exists. Skipping...")
+else:
+    os.mkdir("extracted")
+print("Extracting Rom. Check File explorer.")
+tar = "tar -xf rom.zip -C extracted"
+subprocess.Popen(tar, shell=True)
+subprocess.Popen('explorer "extracted"')
+
+##############
+#CODE ARCHIVE#
+##############
+
+'''
+exdir = os.path.exists("extracted")
+romcheck = os.path.exists("rom.zip")
 batcheck = os.path.exists("MiuiTN_Install_Fastboot.bat")
 
 os.chdir("bin\\aria2c\\dl")
@@ -30,4 +48,4 @@ else:
     print("Extracting Rom. Check File explorer.")
     tar = "tar -xf rom.zip -C extracted"
     subprocess.Popen(tar, shell=True)
-    subprocess.Popen('explorer "extracted"')
+    subprocess.Popen('explorer "extracted"')'''

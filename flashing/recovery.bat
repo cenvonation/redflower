@@ -11,5 +11,8 @@ set /p img="Drag Android Recovery partition image in Terminal window here: "
 echo Flashing to partition: boot
 fastboot flash boot %img%
 
+echo Rebooting to Recovery
+fastboot reboot recovery
+
 echo Finished.
 TIMEOUT /T 3
