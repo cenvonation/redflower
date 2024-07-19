@@ -29,7 +29,7 @@ This project has code archives in some files which is basically just old bits of
 - Reboot menus ADB and FASTBOOT [**FINISHED**]
 - List partitions name, size, type + show baseband version and IMEI's [**FINISHED**]
 - Separate partition flashing [**FINISHED**]
-~~- Backup IMEI (nvram, nvdata for custom rom) [NOT STARTED YET]~~ **READ NOTES**
+- ~~Backup IMEI (nvram, nvdata for custom rom) [NOT STARTED YET]~~ **READ NOTES**
 - Fix dm-verity error on boot [**FINISHED**]
 
 ## NOTES
