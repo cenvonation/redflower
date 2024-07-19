@@ -1,5 +1,5 @@
 # Red Flower
-## !!!THIS TOOL IS STILL UNFINISHED DONT USE IT YET!!!
+## !!!THIS TOOL IS STILL UNFINISHED USE AT YOUR OWN RISK!!!
 A multipurpose tool for the Redmi 10/Prime/Note 11 4G 
 
 (This project can be used on any other device actually but it's mostly dedicated to use on the selene/selenes model of Redmi devices.)
